@@ -1,0 +1,616 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f6f7f1;
+}
+
+h1 {
+    font-size: 0.8rem;
+    color: #3f5a97;
+    line-height: 1.2rem;
+}
+
+h4 {
+    font-size: 0.6rem;
+    line-height: 1.2rem;  
+}
+
+h3 {
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+}
+
+p {
+    font-size: 0.5rem;
+    line-height: 0.8rem;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #c9c9c9;
+    margin: 0 15px 0 15px;
+}
+
+.fade {
+    height: 20vh;
+    background-image: linear-gradient(to right, #e5f4fb, #418fc9);
+    margin: 0 15px 0 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1;
+}
+
+.fade img {
+    width: 40%;
+}
+
+.fade h1 {
+    font-size: 0.7rem;
+}
+
+.hoja-1 {
+    margin: 0 15px 0 15px; 
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.hoja-2 {
+    margin: 0 15px 0 15px; 
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.uno{
+    background-color: #d9ecfd; 
+}
+
+.tablota {
+    text-align: center;
+    font-size: 0.5rem;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.tablota td {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.hoja-3 {
+    margin: 0 15px 0 15px; 
+    background-color: white;
+    padding: 10px 15px; 
+}
+
+.hoja-4 {
+    margin: 0 15px 0 15px; 
+    background-color: white;
+    padding: 10px 15px; 
+}
+
+.elboton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.botonera {
+    border: none;
+    color: white;
+    font-size: 0.6rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bolder;
+    width: 200px;
+    background-color: rgba(65, 142, 201, 1);
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #3f5a97;
+    transition: ease-out 0.4s;
+    outline: none;
+}
+
+.botonera:hover {
+    box-shadow: inset 200px 0 0 0 #3f5a97;
+    cursor: pointer;
+    color: white;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 10px;
+}
+
+.ul_uno {
+    padding-left: 65px;
+}
+
+.iconos li {
+    font-size: 0.5rem;
+}
+
+.iconos ul {
+    list-style-type: none;
+    font-size: 0.2rem;
+}
+
+.ultima_lista {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+}
+
+.ultima_lista li {
+    font-size: 0.5rem;
+}
+
+.cover_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover_img .cover {
+    width: 230px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hoja-5 {
+    margin: 0 15px 0 15px; 
+    background-color: white;
+    padding: 10px 15px; 
+}
+
+.finale {
+    margin: 0 15px 0 15px;
+    background-color: #47515e;
+}
+
+.para_finale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos_redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.fa-color1 {
+    color: white;
+    padding-right: 10px;
+}
+
+.fa-color2 {
+    padding-left: 10px;
+    color: white;
+}
+
+@media (min-width: 375px) {
+    .fade {
+        height: 20vh;
+        background-image: linear-gradient(to right, #e5f4fb, #418fc9);
+        margin: 0 20px 0 20px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1 1;
+    }
+
+    .hoja-1, .hoja-2, .hoja-3, .hoja-4, .hoja-5, .finale {
+        margin: 0 20px 0 20px;
+        padding: 15px 20px;
+    }
+
+    hr {
+        margin: 0 20px 0 20px;
+    }
+
+    .ul_uno {
+        padding-left: 75px;
+    }
+}
+
+@media (min-width: 425px) {
+    .fade {
+        height: 20vh;
+        background-image: linear-gradient(to right, #e5f4fb, #418fc9);
+        margin: 0 30px 0 30px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1 1;
+    }
+
+    .hoja-1, .hoja-2, .hoja-3, .hoja-4, .hoja-5, .finale {
+        margin: 0 30px 0 30px;
+        padding: 20px 25px;
+    }
+
+    hr {
+        margin: 0 30px 0 30px;
+    }
+
+    .ul_uno {
+        padding-left: 90px;
+    }
+}
+
+@media (min-width: 768px) {
+    .fade {
+        height: 30vh;
+        margin: 0 50px 0 50px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1 1;
+    }
+
+    .fade h1 {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+
+    .hoja-1, .hoja-2, .hoja-3, .hoja-4, .hoja-5, .finale {
+        margin: 0 50px 0 50px;
+        padding: 30px 35px;
+    }
+
+    hr {
+        margin: 0 50px 0 50px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+        line-height: 2.2rem;  
+    }
+
+    p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .tablota {
+        font-size: 0.8rem;
+        width: 400px;
+    }
+
+    .tablota td {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .botonera {
+        border: none;
+        color: white;
+        font-size: 0.8rem;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-weight: bolder;
+        width: 350px;
+        background-color: rgba(65, 142, 201, 1);
+        border-radius: 4px;
+        box-shadow: inset 0 0 0 0 #3f5a97;
+        transition: ease-out 0.4s;
+        outline: none;
+    }
+    
+    .botonera:hover {
+        box-shadow: inset 350px 0 0 0 #3f5a97;
+        cursor: pointer;
+        color: white;
+    }
+
+    .iconos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iconos li {
+        font-size: 0.8rem;
+        line-height: 2rem;
+    }
+
+    .ultima_lista {
+        padding-top: 25px;
+    }
+    
+    .ultima_lista li {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+
+    .cover_img .cover {
+        width: 450px;
+    }
+
+    .pendejada {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .fade {
+        margin: 0px 75px 0 75px;
+    }
+
+    .fade h1 {
+        font-size: 2rem;
+        line-height: 2.3rem;
+    }
+
+    .hoja-1, .hoja-2, .hoja-3, .hoja-4, .hoja-5 {
+        margin: 0px 75px 0 75px;
+        padding: 40px 45px;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+        line-height: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+
+    h4 {
+        font-size: 1.8rem;
+    }
+
+    hr {
+        margin: 0px 75px 0 75px;
+    }
+
+    .tablota {
+        font-size: 1rem;
+        width: 450px;
+    }
+
+    .tablota td {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .botonera {
+        font-size: 1.3rem;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        width: 400px;
+    }
+    
+    .botonera:hover {
+        box-shadow: inset 400px 0 0 0 #3f5a97;
+    }
+
+    .iconos li {
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+
+    .ultima_lista {
+        padding-top: 30px;
+    }
+    
+    .ultima_lista li {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    .cover_img .cover {
+        width: 480px;
+    }
+
+    .pendejada {
+        font-size: 1.2rem;
+    }
+
+    .finale {
+        margin: 0px 75px 0 75px;  
+    }
+}
+
+@media (min-width: 1440px) {
+    .fade {
+        margin: 0px 90px 0 90px;
+    }
+
+    .fade h1 {
+        font-size: 2.4rem;
+        line-height: 2.5rem;
+    }
+
+    .hoja-1, .hoja-2, .hoja-3, .hoja-4, .hoja-5 {
+        margin: 0px 90px 0 90px;
+        padding: 60px 65px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        line-height: 3rem;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    h4 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    hr {
+        margin: 0px 75px 0 75px;
+    }
+
+    .tablota {
+        font-size: 1.4rem;
+        width: 600px;
+    }
+
+    .tablota td {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .botonera {
+        font-size: 1.7rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 550px;
+    }
+    
+    .botonera:hover {
+        box-shadow: inset 550px 0 0 0 #3f5a97;
+    }
+
+    .iconos li {
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+    }
+
+    .ultima_lista {
+        padding-top: 45px;
+    }
+    
+    .ultima_lista li {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .cover_img .cover {
+        width: 600px;
+    }
+
+    .pendejada {
+        font-size: 1.5rem;
+    }
+
+    .finale {
+        margin: 0px 90px 0 90px;  
+    }
+}
+
+@media (min-width: 2560px) {
+    .fade {
+        margin: 0px 150px 0 150px;
+    }
+
+    .fade h1 {
+        font-size: 4.5rem;
+        line-height: 5.5rem;
+    }
+
+    .hoja-1, .hoja-2, .hoja-3, .hoja-4, .hoja-5 {
+        margin: 0px 150px 0 150px;
+        padding: 105px 110px;
+    }
+
+    p {
+        font-size: 3.2rem;
+        line-height: 5rem;
+    }
+
+    h1 {
+        font-size: 5.5rem;
+        line-height: 6rem;
+    }
+
+    h3 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    h4 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    hr {
+        margin: 0px 150px 0 150px;
+    }
+
+    .tablota {
+        font-size: 3rem;
+        width: 1100px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .tablota td {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .botonera {
+        font-size: 3rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 1100px;
+    }
+    
+    .botonera:hover {
+        box-shadow: inset 1100px 0 0 0 #3f5a97;
+    }
+
+    .iconos li {
+        font-size: 3rem;
+        line-height: 6rem;
+        padding-top: 50px;
+    }
+
+    .ultima_lista {
+        padding-top: 70px;
+    }
+    
+    .ultima_lista li {
+        font-size: 3rem;
+        line-height: 4.5rem;
+    }
+
+    .cover_img .cover {
+        width: 1000px;
+    }
+
+    .pendejada {
+        font-size: 2.5rem;
+    }
+
+    .finale {
+        margin: 0px 150px 0 150px;  
+    }
+}
